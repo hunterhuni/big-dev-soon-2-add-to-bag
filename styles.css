@@ -33,6 +33,10 @@ main {
   row-gap: 1rem;
 }
 
+.small-image {
+  opacity: 0.6;
+}
+
 .small-image-selected {
   height: 104px;
   width: 80px;
@@ -89,6 +93,7 @@ h1 {
   color: #1a75ff;
   background: #aaccff;
   padding: 4px;
+  border-radius: 4px;
 }
 
 .original-price {
@@ -122,6 +127,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 4px;
 }
 
 .size-box:hover {
